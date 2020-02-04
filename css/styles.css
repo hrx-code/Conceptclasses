@@ -2,6 +2,7 @@
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
+	
 }
 
 nav{
@@ -49,13 +50,13 @@ nav{
 
 
 @media screen and (max-width:768px){
-	.nav-links{
+	/*.nav-links{
 		width:60%;
 		}
-}
+} */
 
 @media screen and (max-width:768px){
-    body{
+    body,html{
 		overflow:hidden;
 	}	
 	.nav-links{
@@ -64,7 +65,7 @@ nav{
 		 height:92vh;
 		 top:08vh;
 		 background-color:#5d4954;
-		 display:flex;
+		 display:none;
 		 flex-direction:column;
 		 align-items:center;
 		 width:40%;
@@ -86,12 +87,14 @@ nav{
 
 @keyframes navlinkfade{
 	from{
-		opacity: 0;
+		opacity:0;
 		transform: translateX(50px);
+		
 	} 
 	to{
-		opacity: 1;
+		opacity:1;
 		transform: translateX(0px);
+	
 	}
 }
 
