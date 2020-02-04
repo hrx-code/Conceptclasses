@@ -4,7 +4,17 @@
 	box-sizing:border-box;
 	
 }
+/*-------------------------Main Page--------------------------------*/
 
+
+
+
+
+
+
+
+
+/*-------------------------NAVIGATION BAR----------------------------*/
 nav{
 	display:flex;
 	justify-content:space-around;
@@ -70,6 +80,9 @@ img{
     body,html{
 		overflow:hidden;
 	}	
+	img{
+		height:24vh;
+	}
 	.nav-links{
 		 position:absolute;
 		 left:0px;
