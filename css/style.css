@@ -15,15 +15,15 @@ nav{
   align-items: center;
   min-height:8vh;
   background-color: #5D4954;
-  font-family: 'poppins',sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 /* its "concept classes" styling */
 .logo{
   color: rgb(226,226,226);
   text-transform: uppercase;
-    font-family:
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 1.5px;
-  font-size: 20px;
+  font-size: 19px;
 }
 /* links grouped via div , classified as flex and their properties*/
 .nav-links{
