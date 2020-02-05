@@ -3,6 +3,9 @@
   margin:0px;
   box-sizing: border-box;
 }
+img{
+  width:100%;
+}
 /* all logo and 4links and 3 lines summed up in nav and designed as flex*/
 nav{
   position:sticky;
